@@ -1,0 +1,129 @@
+/* IMPORT POLICE */
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Outfit:wght@300&display=swap');
+
+/*******************************************************/
+
+#first{
+    width: 1275px;
+    height: 800px;
+    position: absolute;
+}
+#black {
+  width: 450px;
+  height: 800px;
+  background-color: black;
+  float: left;
+  position: absolute;
+}
+#img {
+  background-image: url(assets/desktop/image-hero.jpg);
+  width: 540px;
+  height: 800px;
+  position: absolute;
+  margin-left: 450px;
+}
+#whiteh1 {
+  position: absolute;
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 88px;
+  top: 190px;
+  left: 250px;
+  /* or 92% */
+  text-transform: uppercase;
+  /* White */
+  color: #ffffff;
+  mix-blend-mode: difference;
+  
+}
+
+#text_location p{
+    width: 350px;
+    height: 160px;
+    position: absolute;
+    height: 160px;
+    left: 72.55%;
+    right: 0%;
+    top: calc(50% - 160px/2 - 130px);
+    text-align: left;
+    font-family: 'Outfit';
+    font-style: normal;
+    line-height: 32px;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+
+
+/*  BUTTON LOCATION */
+#b_location {
+  width: 260px;
+  height: 72px;
+  background-color: #d5966c;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 0 0;
+  position: absolute;
+  width: 260px;
+  height: 72px;
+  left: 925px;
+  top: 414px;
+}
+
+#p_location {
+  background-color: black;
+  width: 204px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+#img_location {
+  width: 56px;
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+#b_location p {
+  color: white;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 20px;
+  letter-spacing: 3.64px;
+}
+
+
+
+
+
+
+/* BUTTON OVER */
+#b_location:hover {
+  cursor: pointer;
+}
+#b_location:hover > #p_location {
+  background-color: #d5966c;
+  transition: 0.5s;
+}
+#b_location:hover > #img_location {
+  background-color: black;
+  transition: 0.5s;
+}
+
+
+
+
+/* -----------------------SECOND CONTAINER---------------------- */
+
+#second{
+    position: absolute;    
+    margin-top: 980px;
+    background-color: red;
+}
